@@ -1,0 +1,297 @@
+@charset "UTF-8";
+@font-face {
+    font-family: WixMadeForDisplay;
+    src: url(_fonts/WixMadeforDisplay-VariableFont_wght.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(71, 5, 71), rgb(10, 10, 55));
+    overflow-x: hidden;
+}
+
+    ::-webkit-scrollbar {
+    width: 6px;
+}
+    ::-webkit-scrollbar-track {
+    background: #1e0535;
+}
+    ::-webkit-scrollbar-thumb {
+    background: #2a035a;
+}
+    ::-webkit-scrollbar-thumb:hover {
+    background: #4d057d;
+}
+
+.header {
+    width: 100vw;
+    height: 35vh;
+    background-image: linear-gradient(rgba(233, 233, 233, 0), rgb(27, 5, 41) 97%), url(_images/background.png);
+    background-size: cover;
+    border-bottom: 1px solid white;
+}
+
+section#corpo1 {
+    display: block;
+    width: 50vw;
+    float: left;
+    border-right: 1px solid white;
+}
+
+aside#corpo2 {
+    display: block;
+    width: 49vw;
+    float: right;
+}
+
+.list {
+    position: absolute;
+    list-style: none;
+    top: -10px;
+    left: -35px;
+}
+
+.list li {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px;
+    margin: 2px;
+    background-color: rgb(255, 255, 255);
+    font-family: WixMadeForDisplay, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 4px 4px 9px black;
+}
+
+.list li:hover {
+    opacity: 100%;
+    transition: 0.5s;
+    background-color: rgb(141, 15, 150);
+}
+
+.list a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.element1 {
+    width: 30px;
+    height: 4px;
+    background-color: rgb(194, 27, 224);
+    position:absolute;
+    top: 35px;
+    left: 18px;
+    box-shadow: 0px 0px 6px rgb(134, 9, 128);
+}
+
+.conteiner1 {
+    text-align: center;
+    
+}
+
+.image1 {
+    width: 35vw;
+    margin-top: -2%;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.video1 {
+    width: 38vw;
+    border: 0.3px solid white;
+}
+
+.group1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videocaption {
+    text-align: center;
+    position:relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: -8px;
+}
+
+table.tabela1 {
+    border: 1px solid white;
+    border-spacing: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+table.tabela1 caption span {
+    display: block;
+    float: right;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+table.tabela1 td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+table.tabela1 td.esquerda {
+    width: 100px;
+    background: rgb(0, 0, 0);
+    text-align: center;
+}
+
+table.tabela1 td.direita {
+    width: 200px;
+    color: black;
+    background: rgb(255, 165, 252);
+}
+
+.nomeanime {
+    color: #ffdae7;
+    font-family:WixMadeForDisplay, sans-serif;
+    text-align: left;
+}
+
+.nomemanga {
+    color: #ffdae7;
+    font-family:WixMadeForDisplay, sans-serif;
+    text-align: left;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.coveranime {
+    width: 200px;
+    border: 1px solid rgb(255, 205, 228);
+    box-shadow: 5px 5px 8px rgb(88, 40, 88);
+    position: relative;
+    margin: 1px;
+
+}
+
+.coveranime:hover {
+    opacity: 0.1;
+    transition: 1s;
+    background-color: rgb(0, 0, 0);
+}
+
+.legendacover {
+    position:absolute;
+    color: white;
+    text-align:center;
+    margin-left: 47px;
+    margin-top: 120px;
+}
+
+.legendacover2 {
+    position:absolute;
+    color: white;
+    text-align:center;
+    margin-left: 27px;
+    margin-top: 120px;
+}
+
+.backblack {
+    background-color: black;
+    width: 203px;
+    height: 302px;
+}
+
+.backblack1 {
+    background-color: black;
+    width: 203px;
+    height: 286px;
+}
+
+.picture {
+    float: left;
+}
+
+.sinopse {
+    float: right;
+    width: 540px;
+    height: 302px;
+}
+
+.sinopsemanga {
+    float: right;
+    width: 595px;
+}
+
+.sobreanime {
+    color: white;
+    font-family: WixMadeForDisplay, sans-serif;
+    font-size: 18px;
+    margin-bottom: -5px;
+    margin-top: 8px;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+.legendastyle {
+    font-family: WixMadeForDisplay, sans-serif;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.legendastylemanga {
+    font-family: WixMadeForDisplay, sans-serif;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+.sinmanga {
+    width: 750px;
+    height: 180px;
+}
+
+#topic1 {
+    position: relative;
+    height: 370px;
+}
+
+#topic2 {
+    position: relative;
+    height: 370px;
+}
+
+#topic3 {
+    position: relative;
+    height: 370px;
+}
+
+.link {
+    color:#ffa8f5;
+}
+
+.mangacover {
+    width: 150px;
+    height: auto;
+    border: 1px solid aquamarine;
+}
+
+
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid white;
+}
+
+footer#rodape p {
+    text-align: center;
+    font-size: 8px;
+}
